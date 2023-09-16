@@ -169,3 +169,23 @@ body {
         margin-left: 20px;
     }
 }
+
+
+@media screen and (max-width: 770px) {
+
+    .app {
+        width: 380px;
+        height:  550px;
+    }
+    .input-section input {
+        margin-right: -10px;
+        width: 110px;
+        font-size: 25px;
+    }
+    .output-section h2{
+        font-size: 50px;
+    }
+    .output-section h1{
+        font-size: 50px;
+    }
+}
