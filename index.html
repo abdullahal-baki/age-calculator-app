@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator app</title>
+    <link rel="icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="input-section">
+            <div class="input-area">
+                <label for="day">day</label>
+                
+                <input type="text" name="day" id="day" placeholder="dd">
+                <small id="dayError">invalid notification</small>
+            </div>
+
+            <div class="input-area">
+                <label for="month">Month</label>
+                <input type="text" name="month" id="month" placeholder="mm">
+                <small id="monthError">invalid notification</small>
+            </div>
+
+            <div class="input-area">
+                <label for="year">year</label>
+                <input type="text" name="year" id="year" placeholder="yyyy">
+                <small id="yearError">invalid notification</small>
+            </div>
+
+
+        </div>
+        <div class="border-line">
+            <div class="calc-btn">
+                <img src="assets/images/icon-arrow.svg" alt="" id="calcBtn">
+            </div>
+        </div>
+        
+
+        <div class="output-section">
+            <div class="row">
+                <h1 id="calcedYear">--</h1>
+                <h2>years</h2>
+            </div>
+            <div class="row">
+                <h1 id="calcedMonth">--</h1>
+                <h2>months</h2>
+            </div>
+            <div class="row">
+                <h1 id="calcedDay">--</h1>
+                <h2>days</h2>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
